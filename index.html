@@ -20,7 +20,7 @@
 </style>
 
 		<meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="pact/KHQc2gCuA1Fa46SJn3B+VIDKprgkD3pqbKuTnVYo3DTl+olAj84KiB/R748D0I7TJmgYEIJUBdwmDEmFQ==" />
+<meta name="csrf-token" content="JAtIAbWq9/C5OnmIaS26tnutwlM57pXKIqxZfm7FRgLZDxUug5ChmoS6Xu195JasCS4ATaNkb2i7waenRFouYg==" />
 		<style id="user-css-output" type="text/css"></style>
 	</head>
 	<body>
@@ -121,7 +121,7 @@ Concert
 </div>
 <div class="sl-block" data-block-type="text" style="width: 1200px; left: 80px; top: 410px; height: auto;" data-block-id="a1dcb070459bf08fbdaa73866eb74e9f">
     <div class="sl-block-content fragment fade-up" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 15; text-align: left; font-size: 80%;" data-fragment-index="1">
-<h1>Part 3 <span style="color:#FFFF00">.</span> Template Engine</h1>
+<h1>Part 3 <span style="color:#FFFF00">.</span> Template Engine + Ajax</h1>
 </div>
 </div>
 <div class="sl-block" data-block-type="text" style="width: 1200px; left: 80px; top: 523px; height: auto;" data-block-id="9c1804f5c664c20a2d84bb6a78f13eea">
@@ -168,7 +168,7 @@ Concert
 
 
 
-<div class="sl-block" data-block-type="image" data-block-id="f40a6595e07eb08b50f450aea2e11f70" style="min-width: 4px; min-height: 4px; width: 1015px; height: 645px; left: -32px; top: 105px;"><a class="sl-block-content" style="z-index: 10;" href="https://code.visualstudio.com/" target="_blank"><img style="" data-natural-width="2124" data-natural-height="1350" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6450912/pasted-from-clipboard.png"></a></div>
+<div class="sl-block" data-block-type="image" data-block-id="f40a6595e07eb08b50f450aea2e11f70" style="min-width: 4px; min-height: 4px; width: 1015px; height: 645px; left: -32px; top: 105px;"><a class="sl-block-content" style="z-index: 10;" href="https://code.visualstudio.com/" target="_blank"><img style="" data-natural-width="2124" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6450912/pasted-from-clipboard.png"></a></div>
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 482px; left: 548px; top: 246px;" data-block-id="d969022d72f601afd94535a2bc0d78bc">
     <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 326%; letter-spacing: -0.04em; line-height: 0.988;" data-has-letter-spacing="" data-has-line-height="">
 <p style="text-align:left"><span style="font-size:1.2em"><strong>Visual<br>
@@ -1279,12 +1279,12 @@ const menuItemButton = document.querySelector('.ediya-menu__item a')</code></pre
 <p><span style="font-size:22px"><strong>Selecting <a href="https://developer.mozilla.org/ko/docs/Glossary/DOM" target="_blank">DOM</a> Element : <a href="https://developer.mozilla.org/ko/docs/Web/API/Document/querySelector" target="_blank">querySelector()</a></strong></span></p>
 </div>
 </div>
-<div class="sl-block" data-block-type="code" style="width: 1040px; height: 288px; left: 0px; top: 409px;" data-block-id="5c1f3ec28d158a0e0496a6910257139b"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 16; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="none"><code style="padding: 30px;" data-line-numbers="|2|5-7" data-fragment-index="1">// 유틸리티 함수 el 정의
+<div class="sl-block" data-block-type="code" style="width: 1040px; height: 288px; left: 0px; top: 409px;" data-block-id="5c1f3ec28d158a0e0496a6910257139b"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 16; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="none"><code style="padding: 30px;" data-line-numbers="|2|5-7" data-fragment-index="1">// 유틸리티 함수 el 정의 (ES6 화살표 함수)
 const el = selector =&gt; document.querySelector(selector)
 
 // 유틸리티 함수를 사용해 문서에서 요소 찾기
 const menuItem = el('.ediya-menu__item')
-const menuItemButton = el('.ediya-menu__item a')
+const menuItemButton = el('.ediya-menu__item a[role="button"]')
 const menuItemModal = el('.ediya-menu__item .ediya-menu__item--detail')</code></pre></div></div>
 <div class="sl-block" data-block-type="image" data-block-id="fd59b05cdcde6b72e6386e69e33f60b0" style="min-width: 4px; min-height: 4px; width: 231px; height: 252px; left: 1049px; top: 140px;"><div class="sl-block-content" style="z-index: 17; transition-duration: 0.6s; transition-delay: 1.2s;" data-animation-type="slide-right"><img style="" data-natural-width="437" data-natural-height="476" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6348828/pasted-from-clipboard.png"></div></div>
 <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 120px; height: 120px; left: 893px; top: 441px;" data-block-id="c22a2a3dc556546298851a077885cd79"><div class="sl-block-content fragment fade-down" style="z-index: 18;" data-fragment-index="0"><img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="http://icons.iconarchive.com/icons/harwen/simple/256/Settings-icon.png"></div></div></section><section data-background-color="#6327c7" data-id="cfe23e2725070d5ce478cbfd1054438e" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1">
@@ -1327,7 +1327,7 @@ const elList = selector =&gt; document.querySelectorAll(selector)
 
 // 유틸리티 함수를 사용해 문서에서 요소(들) 찾기
 const menuItems = elList('.ediya-menu__item')
-const menuItemButtons = elList('.ediya-menu__item a')
+const menuItemButtons = elList('.ediya-menu__item a[role="button"]')
 const menuItemModals = elList('.ediya-menu__item .ediya-menu__item--detail')</code></pre></div></div>
 <div class="sl-block" data-block-type="image" data-block-id="dc346a19ad608eb283ea15785c363d80" style="min-width: 4px; min-height: 4px; width: 229px; height: 504px; left: 1051px; top: 140px;"><div class="sl-block-content" style="z-index: 16; transition-duration: 0.6s; transition-delay: 1.2s;" data-animation-type="slide-right"><img style="" data-natural-width="576" data-natural-height="1268" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6348830/pasted-from-clipboard.png"></div></div>
 <div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 120px; height: 120px; left: 898px; top: 439px;" data-block-id="ee6bfa10a39a2e52636c75becd6429f6"><div class="sl-block-content fragment fade-down" style="z-index: 18;" data-fragment-index="0"><img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="http://icons.iconarchive.com/icons/harwen/simple/256/Settings-icon.png"></div></div></section><section data-background-color="#6327c7" data-id="7c37d1965ae31b34676770d06ce062a2" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1">
@@ -1411,7 +1411,8 @@ menuItemButtons[n].addEventListener('click', onClickAction)</code></pre></div></
 </div>
 </div>
 <div class="sl-block" data-block-type="image" data-block-id="4f375f063d73a3c5e3ea345f376c7cb1" style="min-width: 4px; min-height: 4px; width: 136px; height: 136px; left: 1027px; top: 140px;"><div class="sl-block-content" style="z-index: 16; transition-duration: 0.6s; transition-delay: 1.2s;" data-animation-type="slide-right"><img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6348838/pasted-from-clipboard.png"></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1200px; height: 146px; left: 0px; top: 540px;" data-block-id="0f063bd04717cc8c5a8c4e178170a043"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 17; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="none"><code style="padding: 30px;">// 메뉴 아이템(들)을 순환하여 각 아이템 버튼 요소에 클릭 이벤트 핸들러 연결 설정
+<div class="sl-block" data-block-type="code" style="width: 1200px; height: 180px; left: 0px; top: 540px;" data-block-id="0f063bd04717cc8c5a8c4e178170a043"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 17; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="none"><code style="padding: 30px;" data-line-numbers="3">// 메뉴 아이템(들)을 순환하여 각 아이템 버튼 요소에 클릭 이벤트 핸들러 연결 설정
+// NodeList.prototype.forEach() : IE 미지원. IE 고려 시 Fallback 사용. (mzl.la/2Nc2uLP)
 menuItemButtons.forEach(button =&gt; button.addEventListener('click', onClickAction))</code></pre></div></div></section><section data-background-color="#6327c7" data-id="c0c693955da995012009097601699dda" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1">
 
 
@@ -1483,12 +1484,12 @@ menuItemButtons.forEach(button =&gt; button.addEventListener('click', onClickAct
 <p><span style="font-size:22px"><strong>Programming </strong>:<strong> Show Detail Modal</strong></span></p>
 </div>
 </div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 171px; left: 0px; top: 140px;" data-block-id="38582c68b0c76c6dfa1bb1745bbe8af2"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,3|2" data-fragment-index="1">elList('.ediya-menu__item a[role="button"]').forEach(button =&gt;
+<div class="sl-block" data-block-type="code" style="width: 1280px; height: 171px; left: 0px; top: 140px;" data-block-id="38582c68b0c76c6dfa1bb1745bbe8af2"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,3|2" data-fragment-index="0">elList('.ediya-menu__item a[role="button"]').forEach(button =&gt;
   button.addEventListener('click', showDetailModal)
 )</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 355px; left: 0px; top: 324px;" data-block-id="b63e468acc2670e6ad9cf662da011518"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 16; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,10|9|2|3|4|5|7" data-fragment-index="3">const showDetailModal = e =&gt; {
-  const button = e.currentTarget            // 클릭한 버튼(a[role="button"] 요소)
-  const modal = button.nextElementSibling   // 버튼에 인접한 다음 요소는 '모달'(div[role="dialog"])
+<div class="sl-block" data-block-type="code" style="width: 1280px; height: 348px; left: 0px; top: 324px;" data-block-id="b63e468acc2670e6ad9cf662da011518"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 16; font-size: 130%;" data-code-wrap="true" data-fragment-index="2"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,10|9|2|3|4|5|7" data-fragment-index="2">const showDetailModal = e =&gt; {
+  const button = e.currentTarget            // 클릭한 버튼([role="button"] 요소)
+  const modal = button.nextElementSibling   // 버튼에 인접한 다음 요소는 '모달'([role="dialog"])
   button.setAttribute('aria-pressed', true) // 버튼 요소를 '누른' 상태로 변경
   modal.removeAttribute('hidden')           // 모달 요소의 hidden 속성 제거
   // 모달 요소에 is-active 클래스 속성 추가
@@ -1568,10 +1569,10 @@ menuItemButtons.forEach(button =&gt; button.addEventListener('click', onClickAct
 <p><span style="font-size:22px"><strong>Programming </strong>:<strong> Hide Detail Modal</strong></span></p>
 </div>
 </div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 171px; left: 0px; top: 163px;" data-block-id="bac81767d518b1e5d118667ac4ff9acf"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,3|2">elList('.ediya-menu__item .button.is-close-panel').forEach(button =&gt;
+<div class="sl-block" data-block-type="code" style="width: 1280px; height: 171px; left: 0px; top: 163px;" data-block-id="bac81767d518b1e5d118667ac4ff9acf"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,3|2" data-fragment-index="0">elList('.ediya-menu__item .button.is-close-panel').forEach(button =&gt;
   button.addEventListener('click', hideDetailModal)
 )</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 301px; left: 0px; top: 347px;" data-block-id="d1caa6744b49e9cf18b317c9d10f5618"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,8|2|3|4|5|6|7">const hideDetailModal = e =&gt; {
+<div class="sl-block" data-block-type="code" style="width: 1280px; height: 301px; left: 0px; top: 347px;" data-block-id="d1caa6744b49e9cf18b317c9d10f5618"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="2"><pre class="none"><code style="padding: 30px;" data-line-numbers="|1,8|2|3|4|5|6|7" data-fragment-index="2">const hideDetailModal = e =&gt; {
   const closeButton = e.currentTarget  // 닫기 버튼
   const modal = closeButton.parentNode // 부모 탐색 '모달'
   const button = modal.previousElementSibling // 열기 버튼(a)
@@ -1651,11 +1652,11 @@ menu)을 누르면, 오프캔버스 메뉴(.app-navigation)을 화면에 표시�
 <p><span style="font-size:22px"><strong>Programming </strong>:<strong> Open OffCanvas Menu</strong></span></p>
 </div>
 </div>
-<div class="sl-block" data-block-type="code" style="width: 1040px; height: 197px; left: 0px; top: 140px;" data-block-id="a7cc726ba558e4a76d56864c6a9f41ab"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="javascript"><code style="padding: 30px;">const openMenuButton = el('.app-header .button.is-open-menu')
+<div class="sl-block" data-block-type="code" style="width: 1040px; height: 197px; left: 0px; top: 140px;" data-block-id="a7cc726ba558e4a76d56864c6a9f41ab"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="javascript"><code style="padding: 30px;" data-line-numbers="|4" data-fragment-index="0">const openMenuButton = el('.app-header .button.is-open-menu')
 const menu = el('.app-navigation')
 
 openMenuButton.addEventListener('click', openMenu)</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1040px; height: 199px; left: 0px; top: 360px;" data-block-id="d1633fb7781a8b0e25752b6c3059c512"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="javascript"><code style="padding: 30px;" data-line-numbers="|2|3">const openMenu = e =&gt; {
+<div class="sl-block" data-block-type="code" style="width: 1040px; height: 199px; left: 0px; top: 360px;" data-block-id="d1633fb7781a8b0e25752b6c3059c512"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="1"><pre class="javascript"><code style="padding: 30px;" data-line-numbers="1,4|2|3" data-fragment-index="2">const openMenu = e =&gt; {
   menu.removeAttribute('hidden')
   window.setTimeout(() =&gt; menu.classList.add('is-active'), 100)
 }</code></pre></div></div></section><section data-background-color="#6327c7" data-id="e0446944bd707022cf5cbb8ecd6b2538" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1">
@@ -1731,10 +1732,10 @@ openMenuButton.addEventListener('click', openMenu)</code></pre></div></div>
 <p><span style="font-size:22px"><strong>Programming </strong>:<strong> Close OffCanvas Menu</strong></span></p>
 </div>
 </div>
-<div class="sl-block" data-block-type="code" style="width: 1040px; height: 197px; left: 0px; top: 141px;" data-block-id="f88c3111688c3f334fdae0bc7fdb47c3"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="javascript"><code style="padding: 30px;">const closeMenuButton = el('.app-header .button.is-close-menu')
+<div class="sl-block" data-block-type="code" style="width: 1040px; height: 176px; left: 0px; top: 141px;" data-block-id="f88c3111688c3f334fdae0bc7fdb47c3"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="javascript"><code style="padding: 30px;" data-line-numbers="|3" data-fragment-index="0">const closeMenuButton = el('.app-header .button.is-close-menu')
 
 closeMenuButton.addEventListener('click', closeMenu)</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1040px; height: 199px; left: 0px; top: 361px;" data-block-id="c35c886cfd908245b828d6a5ed01319a"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="javascript"><code style="padding: 30px;" data-line-numbers="|2|3">const closeMenu = e =&gt; {
+<div class="sl-block" data-block-type="code" style="width: 1040px; height: 199px; left: 0px; top: 361px;" data-block-id="c35c886cfd908245b828d6a5ed01319a"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="1"><pre class="javascript"><code style="padding: 30px;" data-line-numbers="1,4|2|3" data-fragment-index="2">const closeMenu = e =&gt; {
   menu.classList.remove('is-active')
   window.setTimeout(() =&gt; menu.setAttribute('hidden', true), 200)
 }</code></pre></div></div></section><section data-background-color="#6327c7" data-id="2244722ca54af227960e0b148ab8dcc2" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1">
@@ -1813,12 +1814,12 @@ closeMenuButton.addEventListener('click', closeMenu)</code></pre></div></div>
 <p><span style="font-size:22px"><strong>Programming </strong>:<strong> </strong></span><strong><span style="font-size:0.7em">Focus Cycle Processing </span></strong><span style="font-size:22px"><strong>for Accessibility</strong></span></p>
 </div>
 </div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 202px; left: 0px; top: 139px;" data-block-id="a052e6240ac5c0e8b1eb9f10c45701cb"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="javascript"><code style="padding: 20px;">const firstNavLink = el('.app-navigation a')
+<div class="sl-block" data-block-type="code" style="width: 1280px; height: 202px; left: 0px; top: 139px;" data-block-id="a052e6240ac5c0e8b1eb9f10c45701cb"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 14; font-size: 130%; transition-duration: 0.6s; transition-delay: 0.6s;" data-code-wrap="true" data-animation-type="scale-down"><pre class="javascript"><code style="padding: 20px;" data-line-numbers="|4,5" data-fragment-index="0">const firstNavLink = el('.app-navigation a')
 const closeMenuButton = el('.app-navigation .button.is-close-menu')
 
 firstNavLink.addEventListener('keydown', focusOnCloseMenuButton)
 closeMenuButton.addEventListener('keydown', focusOnFirstNavLink)</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 360px; left: 0px; top: 360px;" data-block-id="18675429dad78e259131f6867a5aeaf2"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="0"><pre class="javascript"><code style="padding: 20px;" data-line-numbers="|2,4|3|8,10|9">const focusOnCloseMenuButton = e =&gt; {
+<div class="sl-block" data-block-type="code" style="width: 1280px; height: 360px; left: 0px; top: 360px;" data-block-id="18675429dad78e259131f6867a5aeaf2"><div class="sl-block-content notranslate fragment fade-down" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 15; font-size: 130%;" data-code-wrap="true" data-fragment-index="1"><pre class="javascript"><code style="padding: 20px;" data-line-numbers="1,5,7,11|2,4|3|8,10|9" data-fragment-index="2">const focusOnCloseMenuButton = e =&gt; {
   if(e.shiftKey &amp;&amp; e.code === 'Tab') { 
     window.setTimeout(() =&gt; closeMenuButton.focus(), 0) 
   }
@@ -1828,7 +1829,97 @@ const focusOnFirstNavLink = e =&gt; {
   if(!e.shiftKey &amp;&amp; e.code === 'Tab') { 
     window.setTimeout(() =&gt; firstNavLink.focus(), 0) 
   }
-}</code></pre></div></div></section><section data-background-color="#6327c7" data-id="8142f5834ba45e8a7a78f4882ea3f32c" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1">
+}</code></pre></div></div></section><section data-background-color="#6327c7" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1" data-id="1b7932d36154e555f81d4a504fe7ff66">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 922px; left: 278px; top: 60px;" data-block-id="f446d718af71577c4a0c77e7d90da377">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left; color: rgb(255, 255, 255);">
+<p><span style="font-size:0.7em"><strong>Event Handling </strong>(DOM Script)</span></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 307px; left: 0px; top: 60px;" data-block-id="958f37eeca98560ac50ccf785216b3e9">
+    <div class="sl-block-style" style="z-index: 15; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; text-align: left; color: rgb(255, 255, 255);">
+<p><span style="font-size:22px"><strong>Finished Code</strong></span></p>
+</div></div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 176px; top: 85px;" data-block-id="7a8768753acb9232e8da7651ce0445f4">
+    <div class="sl-block-content" data-line-x1="0" data-line-y1="200" data-line-x2="80" data-line-y2="200" data-line-color="#d7c2ff" data-line-start-type="none" data-line-end-type="none" style="z-index: 16;" data-line-width="1px">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="80" height="1" viewbox="0 200 80 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0.5" y1="200.5" x2="80.5" y2="200.5"></line><line stroke="#d7c2ff" stroke-width="1" x1="0.5" y1="200.5" x2="80.5" y2="200.5"></line></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 1280px; height: 587px; left: 0px; top: 133px;" data-block-id="a25fc1d9c82a9a961b7170d2f388c6a8"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 17; font-size: 130%;" data-code-wrap="true"><pre class="none"><code style="padding: 15px;" data-fragment-index="2" data-line-numbers="">// DOM 요소(Elements) 찾기
+const menu = el('.app-navigation')
+const firstNavLink = el('.app-navigation a')
+const openMenuButton = el('.app-header .button.is-open-menu')
+const closeMenuButton = el('.app-navigation .button.is-close-menu')
+const menuItemButtons = elList('.ediya-menu__item a[role="button"]')
+const closeButtons = elList('.ediya-menu__item .button.is-close-panel')
+
+// 인터랙션 기능 구현
+const showDetailModal = (e) =&gt; {
+  const button = e.currentTarget
+  const modal = button.nextElementSibling
+  button.setAttribute('aria-pressed', true)
+  modal.removeAttribute('hidden')
+  window.setTimeout(() =&gt; modal.classList.add('is-active'), 0)
+  e.preventDefault()
+}
+
+const hideDetailModal = (e) =&gt; {
+  const closeButton = e.currentTarget
+  const modal = closeButton.parentNode
+  const button = modal.previousElementSibling
+  button.setAttribute('aria-pressed', false)
+  modal.classList.remove('is-active')
+  window.setTimeout(() =&gt; modal.setAttribute('hidden', true), 200)
+}
+
+const openMenu = (e) =&gt; {
+  menu.removeAttribute('hidden')
+  window.setTimeout(() =&gt; menu.classList.add('is-active'), 100)
+}
+
+const closeMenu = (e) =&gt; {
+  menu.classList.remove('is-active')
+  window.setTimeout(() =&gt; menu.setAttribute('hidden', true), 200)
+}
+
+const focusOnCloseMenuButton = (e) =&gt; {
+  if (e.shiftKey &amp;&amp; e.code === 'Tab') {
+    window.setTimeout(() =&gt; closeMenuButton.focus(), 0)
+  }
+}
+
+const focusOnFirstNavLink = (e) =&gt; {
+  if (!e.shiftKey &amp;&amp; e.code === 'Tab') {
+    window.setTimeout(() =&gt; firstNavLink.focus(), 0)
+  }
+}
+
+// 이벤트 핸들링
+menuItemButtons.forEach((button) =&gt; button.addEventListener('click', showDetailModal))
+closeButtons.forEach((button) =&gt; button.addEventListener('click', hideDetailModal))
+openMenuButton.addEventListener('click', openMenu)
+closeMenuButton.addEventListener('click', closeMenu)
+firstNavLink.addEventListener('keydown', focusOnCloseMenuButton)
+closeMenuButton.addEventListener('keydown', focusOnFirstNavLink)
+</code></pre></div></div></section><section data-background-color="#6327c7" data-id="8142f5834ba45e8a7a78f4882ea3f32c" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1">
 
 
 
@@ -1932,8 +2023,8 @@ Concert
 <p><strong>JSON<br>
 <span style="font-size:0.5em">(DATA)</span></strong></p>
 </div></a></div>
-<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 53px; height: 60px; left: 750px; top: 272px;" data-block-id="8364d22a5cc66a66a2007b91a3a3f3d2"><div class="sl-block-content fragment" data-shape-type="symbol-thin-arrow-up" data-shape-fill-color="rgb(253, 218, 1)" data-shape-stretch="true" style="z-index: 18;" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="4 2 24 28"><g class="shape-element" fill="rgb(253, 218, 1)"><path d="M27.414 12.586l-10-10c-0.781-0.781-2.047-0.781-2.828 0l-10 10c-0.781 0.781-0.781 2.047 0 2.828s2.047 0.781 2.828 0l6.586-6.586v19.172c0 1.105 0.895 2 2 2s2-0.895 2-2v-19.172l6.586 6.586c0.39 0.39 0.902 0.586 1.414 0.586s1.024-0.195 1.414-0.586c0.781-0.781 0.781-2.047 0-2.828z"></path></g></svg></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 237px; left: 657px; top: 188px;" data-block-id="8df71c538be31dd1a3f9296140483960"><a class="sl-block-style" style="z-index: 19;" href="http://twitter.github.io/hogan.js/" target="_blank"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 130%; line-height: 0.91; color: rgb(253, 218, 1);" data-has-line-height="" data-fragment-index="3">
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 53px; height: 60px; left: 751px; top: 272px;" data-block-id="8364d22a5cc66a66a2007b91a3a3f3d2"><div class="sl-block-content fragment" data-shape-type="symbol-thin-arrow-up" data-shape-fill-color="rgb(253, 218, 1)" data-shape-stretch="true" style="z-index: 18;" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="4 2 24 28"><g class="shape-element" fill="rgb(253, 218, 1)"><path d="M27.414 12.586l-10-10c-0.781-0.781-2.047-0.781-2.828 0l-10 10c-0.781 0.781-0.781 2.047 0 2.828s2.047 0.781 2.828 0l6.586-6.586v19.172c0 1.105 0.895 2 2 2s2-0.895 2-2v-19.172l6.586 6.586c0.39 0.39 0.902 0.586 1.414 0.586s1.024-0.195 1.414-0.586c0.781-0.781 0.781-2.047 0-2.828z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 237px; left: 658px; top: 188px;" data-block-id="8df71c538be31dd1a3f9296140483960"><a class="sl-block-style" style="z-index: 19;" href="http://twitter.github.io/hogan.js/" target="_blank"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 130%; line-height: 0.91; color: rgb(253, 218, 1);" data-has-line-height="" data-fragment-index="3">
 <p><strong>Hogan<br>
 <span style="font-size:0.5em">(TEMPLATE)</span></strong></p>
 </div></a></div>
@@ -1964,12 +2055,12 @@ Data Binding</strong><br>
 </div></div>
 </div>
 <div class="sl-block" data-block-type="line" data-block-id="4575955ee0771530ffca295f09bb28e9" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 301px; top: 144px;"><div class="sl-block-content fragment" data-line-x1="-140" data-line-y1="388" data-line-x2="-140" data-line-y2="-116" data-line-color="#b4a7d6" data-line-start-type="none" data-line-end-type="none" style="z-index: 10;" data-line-style="dashed" data-fragment-index="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="504" viewbox="-140 -116 1 504"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-140" y1="388" x2="-140" y2="-116"></line><line stroke="#b4a7d6" stroke-width="2" stroke-dasharray="5.928571428571429 5.928571428571429" x1="-140" y1="388" x2="-140" y2="-116"></line></svg></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 136px; left: 77px; top: 186px;" data-block-id="3427aabecb5bc207e8b3842a9d5da716"><a class="sl-block-style" style="z-index: 27;" href="https://www.json.org/json-ko.html" target="_blank"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27; font-size: 130%; line-height: 0.78; color: rgb(255, 255, 255);" data-has-line-height="" data-fragment-index="1">
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 136px; left: 77px; top: 186px;" data-block-id="3427aabecb5bc207e8b3842a9d5da716"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27; font-size: 130%; line-height: 0.78; color: rgb(255, 255, 255);" data-has-line-height="" data-fragment-index="1">
 <p><strong><span style="font-size:0.5em">SERVER</span></strong></p>
-</div></a></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 136px; left: 386px; top: 186px;" data-block-id="f8717eef0908145dbe43e5c035d3686b"><a class="sl-block-style" style="z-index: 29;" href="https://www.json.org/json-ko.html" target="_blank"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; font-size: 130%; line-height: 0.78; color: rgb(255, 255, 255);" data-has-line-height="" data-fragment-index="1">
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 136px; left: 386px; top: 186px;" data-block-id="f8717eef0908145dbe43e5c035d3686b"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; font-size: 130%; line-height: 0.78; color: rgb(255, 255, 255);" data-has-line-height="" data-fragment-index="1">
 <p><strong><span style="font-size:0.5em">CLIENT</span></strong></p>
-</div></a></div></section><section data-background-color="#6327c7" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1" data-id="e54344a4215ff4331fb0585d0b339afa">
+</div></div></section><section data-background-color="#6327c7" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1" data-id="e54344a4215ff4331fb0585d0b339afa">
 
 
 
@@ -2005,7 +2096,7 @@ Data Binding</strong><br>
 
 <div class="sl-block" data-block-type="text" style="height: auto; width: 643px; left: 258px; top: 60px;" data-block-id="40c7ce853c6bab6f0008120a70cb97f9">
     <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left; color: rgb(255, 255, 255);">
-<p><span style="font-size:22px"><strong><a href="https://api.myjson.com/bins/pdppf" target="_blank">ediya.json</a>  </strong>|<strong>  <a href="https://chrome.google.com/webstore/detail/json-viewer-awesome/iemadiahhbebdklepanmkjenfdebfpfe" target="_blank">JSON Viewer Awesome</a></strong></span></p>
+<p><span style="font-size:22px"><strong><a href="https://api.myjson.com/bins/pdppf" target="_blank">ediya.json</a>  </strong>|<strong>  <a href="https://chrome.google.com/webstore/detail/json-viewer-awesome/iemadiahhbebdklepanmkjenfdebfpfe" target="_blank">JSON Viewer Awesome</a> Extension</strong></span></p>
 </div>
 </div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 307px; left: 0px; top: 60px;" data-block-id="b38fd76f17591d9db9dcddfe0d5a9959">
@@ -2119,7 +2210,7 @@ Data Binding</strong></p>
     </div>
 </div>
 <div class="sl-block" data-block-type="image" style="width: 157px; height: 157px; left: 980px; top: 218px; min-width: 4px; min-height: 4px;" data-block-id="8d56ea516c57ef115e6b7cc00101815e"><div class="sl-block-content" style="z-index: 14; transition-duration: 0.6s; transition-delay: 0.6s;" data-animation-type="slide-left"><img data-natural-width="128" data-natural-height="128" style="" data-lazy-loaded="" data-src="https://image.flaticon.com/icons/png/128/1085/1085839.png"></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1200px; height: 179px; left: 0px; top: 475px;" data-block-id="5198df4ef993171fb71da061845ca5f1"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 16; font-size: 130%;" data-code-wrap="true"><pre class="none"><code style="padding: 30px;" data-fragment-index="2" data-line-numbers="">const template = Hogan.compile(el('#ediya-navigation-item-template').html())
+<div class="sl-block" data-block-type="code" style="width: 1200px; height: 179px; left: 0px; top: 475px;" data-block-id="5198df4ef993171fb71da061845ca5f1"><div class="sl-block-content notranslate" data-highlight-theme="github-gist" data-code-frame="osx" style="z-index: 16; font-size: 130%;" data-code-wrap="true"><pre class="javascript"><code style="padding: 30px;" data-fragment-index="2" data-line-numbers="">const template = Hogan.compile(el('#ediya-navigation-item-template').html())
 const output = template.render({ items: navigation.items })
 el('.app-navigation &gt; ul').html(output)</code></pre></div></div></section><section data-background-color="#6327c7" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/760612/images/6345054/WTC_logo.png" data-background-size="initial" data-background-opacity="0.1" data-id="1722e22dcfc72fb0d4254ba10d2364c9">
 
@@ -2305,9 +2396,9 @@ Data Binding</strong></p>
 
 
 
-<div class="sl-block" data-block-type="text" style="height: auto; width: 643px; left: 278px; top: 60px;" data-block-id="ff037dfa7352d47db6def60762908760">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 922px; left: 278px; top: 60px;" data-block-id="ff037dfa7352d47db6def60762908760">
     <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left; color: rgb(255, 255, 255);">
-<p><span style="font-size:0.7em"><strong>Ajax + Template + Event Handling</strong></span></p>
+<p><span style="font-size:0.7em"><strong>Ajax </strong>(axios)<strong> + Templating </strong>(Hogan)<strong> + Event Handling </strong>(DOM Script)</span></p>
 </div>
 </div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 307px; left: 0px; top: 60px;" data-block-id="6310984e2958d601e1897908f3615473">
@@ -4207,7 +4298,7 @@ escCloseMenu = (e) =&gt; {
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":760612,"username":"yamoo9","name":"yamoo9","description":"Web Design/Develop - Instructor","thumbnail_url":"https://www.gravatar.com/avatar/693056b361672b519b53f02db75ee1ce?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":611248,"present_controls":true,"present_upsizing":false,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":true,"editor_snap":true,"editor_fixed_notes":true,"developer_mode":true,"speaker_layout":"default","speaker_theme":null,"phone_number":null,"phone_country_code":null,"media_sources":null,"export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null},"email":"yamoo9@naver.com","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":null,"storage_used":93067301,"storage_limit":262144000},"deck":{"id":1554320,"slug":"ui-interaction-wtc","title":"UI 인터랙션 — Web Tech Concert 2019","description":"웹 테크 콘서트 2019 UI 인터랙션 강의 슬라이드","width":1280,"height":720,"visibility":"all","published_at":"2019-07-10T01:04:13.114Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/4d6d87e9fc22e1c08922508c38b519f9/thumb.jpg?1565954748","view_count":324,"user":{"id":760612,"username":"yamoo9","name":"yamoo9","description":"Web Design/Develop - Instructor","thumbnail_url":"https://www.gravatar.com/avatar/693056b361672b519b53f02db75ee1ce?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":611248,"present_controls":true,"present_upsizing":false,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"none","transition":"default","theme_id":null,"theme_font":"opensans","theme_color":"asphalt-orange","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":true,"slide_count":101,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":null,"data_updated_at":1566029046271,"font_typekit":null,"font_google":null,"time_limit":null,"upsizing_enabled":false,"notes":{"2224fbc39e38b52acc7e4c5e439d6cb8":"로고\nhttps://www.wix.com/createlogo6/logo_creator\n\nUI 모션\nhttps://blog.prototypr.io/how-im-learning-ui-motion-part-1-41acdcb2d8a6","e6a05890fb6bfd406fd44d685e1b2084":"","e9db38b87334f471e50b31e2e95cb3d4":"","aa37551d46f2d4949e1a412592c227d9":"CSS 애니메이션 사용하기 | MDN\nhttps://developer.mozilla.org/ko/docs/Web/CSS/CSS_Animations/Using_CSS_animations","c6b135a0d08a73702b124349517391c5":"","578a0a875b682986fc8c7ea17f5d6125":"","5583be04efac3f757db97250b6f72ab0":"","e494aa2b1377a06b718abe95acd6e102":"","64339e106541df98165d25511a49cc30":"","3245ec3a6a330a226f4aef98a1405f70":"","6af2b49f84ca9b989a6edb6a7346d3db":"","dba0f76844ee58f10e77776a5860ce14":"CSS3 애니메이션 타이밍 함수 - Cubic Bezier\nhttps://cubic-bezier.com","703122953a1e81d081b219a8923ad5f5":"","f1889f43f50ebc2b65bb65b9d1da1f43":"Google Chrome 개발도구\nhttps://developers.google.com/web/tools/chrome-devtools/?hl=ko","ede40cb3fa6ded7e69076128bbefd481":"","632d88f9321b65e947df01f4e5657c80":"","79acfb16aca6f88c508fea7238b44bfc":"","12fc562a87b7508a7c7ff163f990d383":"텍스트 시퀀싱 모션 | CSS3 애니메이션\nhttps://codepen.io/yamoo9/embed/WqLmGa","2d8ba5ed1baedd40f94a1534e6151c8e":"접근성 고려사항 | CSS3 애니메이션\nhttps://mzl.la/32l3x1p","1930c8b026bcb7abb871acb799be18cb":"텍스트 시퀀싱 모션 (재생, 정지 기능 추가) | CSS3 애니메이션\nhttps://codepen.io/yamoo9/embed/agPPXj","a97af01a4724e5708455181b0478ab83":"","81ad816b3ac4283789e61ddc86c00489":"","3daa9a2d89f749f06b8c7863268503e5":"","20c853626e86f0e1dac21057896ffcc4":"","f02e0573a575793170a56df538625abb":"레진 WAI-ARIA 가이드 라인\nhttps://github.com/lezhin/accessibility/blob/master/aria/README.md\n\n- role\n- aria-haspopup\n- aria-pressed\n- aria-modal","5f96c0bbe3cce54bebdd5edabf0ed115":"","cfe23e2725070d5ce478cbfd1054438e":"","7c37d1965ae31b34676770d06ce062a2":"","963b698d56b8efb1fe3019d5bb37a5a0":"","c0c693955da995012009097601699dda":"","235b09d0925ea488ebc4019354109870":"","bdbd8e1901102126b0f6d511c6f61d5e":"","7b401f3dc06ce87f3fd1d7597a4dfafc":"상세 설명 패널 내부에 위치한 패널 닫기 버튼(.button.is-close-panel)을 클릭하면,","1152e82b3d85814fa56e9831c5df394b":"","2dc901fac074e49c06873c7f12acf697":"","e0446944bd707022cf5cbb8ecd6b2538":"","97e2e95e5db0a6e1be1717613b638571":"","2244722ca54af227960e0b148ab8dcc2":"","4b23facdd3c84d958bc7988159e18f09":"","8142f5834ba45e8a7a78f4882ea3f32c":"","a5173526631547849374720d5c310148":"","9ca80c9cba9a61711785bd17b7f56047":"","9a95e1c801d5e72c31ba3d07325bebc4":"","8542fcb5aaf2ecf0dea8ce207595287c":"","6a6f95fc44b7c5b2b5975e3826c0109a":"WTC 예제\nhttps://stackblitz.com/edit/react-rm4as1","acb50659c6e45030149477da9f51be73":"뷰 컴포넌트\nhttps://stackblitz.com/edit/react-tnr4km\n\n뷰 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-vjpxkl","af4d9191ef4e7092b5774a967a66a63a":"AppMain 컴포넌트\nhttps://stackblitz.com/edit/react-8r6o7u\n\nAppMain 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-krkkma\n","4358209411efcaa9c1d18093dc377d69":"AppMenuList, AppMenuListItem 컴포넌트\nhttps://stackblitz.com/edit/react-8yy2pa\n\nAppMenuList, AppMenuListItem 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-yjdxjg","0706c34a7c4f5278eb07cebc6cf53148":"AppMenuListItem 컴포넌트\nhttps://stackblitz.com/edit/react-ejgfxp\n\nAppMenuListItem 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-gophgr","705bfe6d5ad1ba6d56a9f8f523177271":"AppHomeLink, AppOffCanvasMenu 컴포넌트 \nhttps://stackblitz.com/edit/react-ujmdxq\n\nAppHomeLink, AppOffCanvasMenu 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-asdpw8","2791f4dc8ce9e5bcaf56b99fd5785f89":"AppOffCanvasMenu Component 컴포넌트 \nhttps://stackblitz.com/edit/react-vgx2m2\n\nAppOffCanvasMenu Component 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-lzy5yr","d38736833a6913e014948e399e5c0f0c":"","c10f54a080a8b940b4b13fd3289b72ff":"","a88df42e413d4f45d5ddcab667e9218c":"","7a8cfaf159bec91306ebd5a27754db00":"","d6573ef7f82c025f8882a44b887f7566":"","b88625633835ccb76cbd09836ac0a442":"","55a70a7785166b8d49cf344b1508a9ad":"실습 완성 링크\nhttps://stackblitz.com/edit/react-t5ffdx","41b084030e87d0e1cbb5d0f1fad626f0":"","90a648b1e4c9963ab491633214b2d156":"","81f1562d78c70b0d9dceaa8b0d040a94":"","c8a561ae9901ed6418033d6cbf1fd46d":"","b85054b688d611cd709289b654aca028":"","f05b72f52e5e6e563b64c03244e43993":"","237441908e53944002c53e4b2e924d9d":"","94dd8822f904a212dfa46b335b704815":"","a3086e3c1d16ac513ad619cef0938d6f":"","8037a472ca0b39891436310488c85cd2":"","71109e383150fabf6ac2e8f776f3480a":"","e41fdb1a305200b36e9516211f5a473a":"","b5489efcffc8a57d859f6f49f1120f29":"","26fdf777d7328d221a95f58635b20086":"","120632952bfea8319cfb2eb7825011e9":"","54fe675438488f227d6b7e6a8ff85e1c":"","b1fb8eafa64df16d1b37195561dbefab":"","31c00437ebb7ea3b86f0218892a5282e":"","5f2d0dc96e5d71f5bc522c734b60921a":"","733ed15353dc353a67982a5034625b53":"","7dc3bc41bcfc3c65536b91bab7836b4a":"","191abfa4db1ee0115598d813fd301de5":"https://bit.ly/1dGLkxb","b059a2d6e890eb3ccdb00ed415e5258e":"https://slides.com/yamoo9/ui-interaction-wtc/edit#/3/26","57db8a96b20975c03089c14c3c59aa5e":"","360823a094dcce2a9e6ae104c08f0a8e":"","6aabc4bac5bbfb7ef982103199cfee1f":"","f3ddc38766f51b5721f116719938710e":"","20ebec6a3f763027b1df086c032ca4ec":"","4d4eeacc89484c8fbcca81762b1716da":"","3b86f340c8df3da68e319f79f8b49869":"","b6ab255b06ae13bd6403cceb6a9dd747":"","b77f81a8561065599608d6db80b2b976":"","6bd9e831b801a40de471b1eb197d34cd":"","0e8ce04ecb042644d54bfb6d7cf1934f":"","09ed2ba8108d30203e9367d29c455162":"bit.ly/WTC_react_ex","d9317680cc37882d0d643caccb46bbc0":"","b1dc0867fe9b7ef9fd1e29d5c14fef6d":"","95bd5fbe4037dcee779149c90c32a01e":"","304d6f9788ae3c24be28126838e2a342":"","a5a96d82a42b0a4590544a9e4ba45645":"","ab7b3784f4e2ad806a7a2d8005cffbe7":"","e54344a4215ff4331fb0585d0b339afa":"","c31199466311992e0b64fb0edbf893c8":"","d5e1f38ab245aa1472ce4745b9c9e669":"","0208d15c957c4e847ede5c71dfde4acf":"","d5ed7b926933f2fc7906e7de47fa9ace":"","1722e22dcfc72fb0d4254ba10d2364c9":"","571ad37cf985601292dbd7ac11a8ca6f":"","a4c6e4b860fabb372e9324c26bc79678":"","72ada1387e757df8784075d1217c5a56":"","0eb99c2f6f43983f740493de690c6cc6":"","fa29acd6d335035c1210aefc18de4929":"","6d1189d37fa1520c965aea71138c73bd":"","6d3c93c6ee19f2e0030c6c38c1fa55d9":"","6d9691d508451efbdf77a482573d8638":""}},"user":{"id":760612,"username":"yamoo9","name":"yamoo9","description":"Web Design/Develop - Instructor","thumbnail_url":"https://www.gravatar.com/avatar/693056b361672b519b53f02db75ee1ce?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":611248,"present_controls":true,"present_upsizing":false,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
+	var SLConfig = {"current_user":{"id":760612,"username":"yamoo9","name":"yamoo9","description":"Web Design/Develop - Instructor","thumbnail_url":"https://www.gravatar.com/avatar/693056b361672b519b53f02db75ee1ce?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":611248,"present_controls":true,"present_upsizing":false,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":true,"editor_snap":true,"editor_fixed_notes":true,"developer_mode":true,"speaker_layout":"default","speaker_theme":null,"phone_number":null,"phone_country_code":null,"media_sources":null,"export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null},"email":"yamoo9@naver.com","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":null,"storage_used":93067301,"storage_limit":262144000},"deck":{"id":1554320,"slug":"ui-interaction-wtc","title":"UI 인터랙션 — Web Tech Concert 2019","description":"웹 테크 콘서트 2019 UI 인터랙션 강의 슬라이드","width":1280,"height":720,"visibility":"all","published_at":"2019-07-10T01:04:13.114Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/4d6d87e9fc22e1c08922508c38b519f9/thumb.jpg?1565954748","view_count":325,"user":{"id":760612,"username":"yamoo9","name":"yamoo9","description":"Web Design/Develop - Instructor","thumbnail_url":"https://www.gravatar.com/avatar/693056b361672b519b53f02db75ee1ce?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":611248,"present_controls":true,"present_upsizing":false,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"none","transition":"default","theme_id":null,"theme_font":"opensans","theme_color":"asphalt-orange","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":true,"slide_count":102,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":null,"data_updated_at":1566128492057,"font_typekit":null,"font_google":null,"time_limit":null,"upsizing_enabled":false,"notes":{"2224fbc39e38b52acc7e4c5e439d6cb8":"로고\nhttps://www.wix.com/createlogo6/logo_creator\n\nUI 모션\nhttps://blog.prototypr.io/how-im-learning-ui-motion-part-1-41acdcb2d8a6","e6a05890fb6bfd406fd44d685e1b2084":"","e9db38b87334f471e50b31e2e95cb3d4":"","aa37551d46f2d4949e1a412592c227d9":"CSS 애니메이션 사용하기 | MDN\nhttps://developer.mozilla.org/ko/docs/Web/CSS/CSS_Animations/Using_CSS_animations","c6b135a0d08a73702b124349517391c5":"","578a0a875b682986fc8c7ea17f5d6125":"","5583be04efac3f757db97250b6f72ab0":"","e494aa2b1377a06b718abe95acd6e102":"","64339e106541df98165d25511a49cc30":"","3245ec3a6a330a226f4aef98a1405f70":"","6af2b49f84ca9b989a6edb6a7346d3db":"","dba0f76844ee58f10e77776a5860ce14":"CSS3 애니메이션 타이밍 함수 - Cubic Bezier\nhttps://cubic-bezier.com","703122953a1e81d081b219a8923ad5f5":"","f1889f43f50ebc2b65bb65b9d1da1f43":"Google Chrome 개발도구\nhttps://developers.google.com/web/tools/chrome-devtools/?hl=ko","ede40cb3fa6ded7e69076128bbefd481":"","632d88f9321b65e947df01f4e5657c80":"","79acfb16aca6f88c508fea7238b44bfc":"","12fc562a87b7508a7c7ff163f990d383":"텍스트 시퀀싱 모션 | CSS3 애니메이션\nhttps://codepen.io/yamoo9/embed/WqLmGa","2d8ba5ed1baedd40f94a1534e6151c8e":"접근성 고려사항 | CSS3 애니메이션\nhttps://mzl.la/32l3x1p","1930c8b026bcb7abb871acb799be18cb":"텍스트 시퀀싱 모션 (재생, 정지 기능 추가) | CSS3 애니메이션\nhttps://codepen.io/yamoo9/embed/agPPXj","a97af01a4724e5708455181b0478ab83":"","81ad816b3ac4283789e61ddc86c00489":"","3daa9a2d89f749f06b8c7863268503e5":"","20c853626e86f0e1dac21057896ffcc4":"","f02e0573a575793170a56df538625abb":"레진 WAI-ARIA 가이드 라인\nhttps://github.com/lezhin/accessibility/blob/master/aria/README.md\n\n- role\n- aria-haspopup\n- aria-pressed\n- aria-modal","5f96c0bbe3cce54bebdd5edabf0ed115":"","cfe23e2725070d5ce478cbfd1054438e":"","7c37d1965ae31b34676770d06ce062a2":"","963b698d56b8efb1fe3019d5bb37a5a0":"","c0c693955da995012009097601699dda":"","235b09d0925ea488ebc4019354109870":"","bdbd8e1901102126b0f6d511c6f61d5e":"","7b401f3dc06ce87f3fd1d7597a4dfafc":"상세 설명 패널 내부에 위치한 패널 닫기 버튼(.button.is-close-panel)을 클릭하면,","1152e82b3d85814fa56e9831c5df394b":"","2dc901fac074e49c06873c7f12acf697":"","e0446944bd707022cf5cbb8ecd6b2538":"","97e2e95e5db0a6e1be1717613b638571":"","2244722ca54af227960e0b148ab8dcc2":"","4b23facdd3c84d958bc7988159e18f09":"","8142f5834ba45e8a7a78f4882ea3f32c":"","a5173526631547849374720d5c310148":"","9ca80c9cba9a61711785bd17b7f56047":"","9a95e1c801d5e72c31ba3d07325bebc4":"","8542fcb5aaf2ecf0dea8ce207595287c":"","6a6f95fc44b7c5b2b5975e3826c0109a":"WTC 예제\nhttps://stackblitz.com/edit/react-rm4as1","acb50659c6e45030149477da9f51be73":"뷰 컴포넌트\nhttps://stackblitz.com/edit/react-tnr4km\n\n뷰 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-vjpxkl","af4d9191ef4e7092b5774a967a66a63a":"AppMain 컴포넌트\nhttps://stackblitz.com/edit/react-8r6o7u\n\nAppMain 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-krkkma\n","4358209411efcaa9c1d18093dc377d69":"AppMenuList, AppMenuListItem 컴포넌트\nhttps://stackblitz.com/edit/react-8yy2pa\n\nAppMenuList, AppMenuListItem 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-yjdxjg","0706c34a7c4f5278eb07cebc6cf53148":"AppMenuListItem 컴포넌트\nhttps://stackblitz.com/edit/react-ejgfxp\n\nAppMenuListItem 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-gophgr","705bfe6d5ad1ba6d56a9f8f523177271":"AppHomeLink, AppOffCanvasMenu 컴포넌트 \nhttps://stackblitz.com/edit/react-ujmdxq\n\nAppHomeLink, AppOffCanvasMenu 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-asdpw8","2791f4dc8ce9e5bcaf56b99fd5785f89":"AppOffCanvasMenu Component 컴포넌트 \nhttps://stackblitz.com/edit/react-vgx2m2\n\nAppOffCanvasMenu Component 컴포넌트 (백업)\nhttps://stackblitz.com/edit/react-lzy5yr","d38736833a6913e014948e399e5c0f0c":"","c10f54a080a8b940b4b13fd3289b72ff":"","a88df42e413d4f45d5ddcab667e9218c":"","7a8cfaf159bec91306ebd5a27754db00":"","d6573ef7f82c025f8882a44b887f7566":"","b88625633835ccb76cbd09836ac0a442":"","55a70a7785166b8d49cf344b1508a9ad":"실습 완성 링크\nhttps://stackblitz.com/edit/react-t5ffdx","41b084030e87d0e1cbb5d0f1fad626f0":"","90a648b1e4c9963ab491633214b2d156":"","81f1562d78c70b0d9dceaa8b0d040a94":"","c8a561ae9901ed6418033d6cbf1fd46d":"","b85054b688d611cd709289b654aca028":"","f05b72f52e5e6e563b64c03244e43993":"","237441908e53944002c53e4b2e924d9d":"","94dd8822f904a212dfa46b335b704815":"","a3086e3c1d16ac513ad619cef0938d6f":"","8037a472ca0b39891436310488c85cd2":"","71109e383150fabf6ac2e8f776f3480a":"","e41fdb1a305200b36e9516211f5a473a":"","b5489efcffc8a57d859f6f49f1120f29":"","26fdf777d7328d221a95f58635b20086":"","120632952bfea8319cfb2eb7825011e9":"","54fe675438488f227d6b7e6a8ff85e1c":"","b1fb8eafa64df16d1b37195561dbefab":"","31c00437ebb7ea3b86f0218892a5282e":"","5f2d0dc96e5d71f5bc522c734b60921a":"","733ed15353dc353a67982a5034625b53":"","7dc3bc41bcfc3c65536b91bab7836b4a":"","191abfa4db1ee0115598d813fd301de5":"https://bit.ly/1dGLkxb","b059a2d6e890eb3ccdb00ed415e5258e":"https://slides.com/yamoo9/ui-interaction-wtc/edit#/3/26","57db8a96b20975c03089c14c3c59aa5e":"","360823a094dcce2a9e6ae104c08f0a8e":"","6aabc4bac5bbfb7ef982103199cfee1f":"","f3ddc38766f51b5721f116719938710e":"","20ebec6a3f763027b1df086c032ca4ec":"","4d4eeacc89484c8fbcca81762b1716da":"","3b86f340c8df3da68e319f79f8b49869":"","b6ab255b06ae13bd6403cceb6a9dd747":"","b77f81a8561065599608d6db80b2b976":"","6bd9e831b801a40de471b1eb197d34cd":"","0e8ce04ecb042644d54bfb6d7cf1934f":"","09ed2ba8108d30203e9367d29c455162":"bit.ly/WTC_react_ex","d9317680cc37882d0d643caccb46bbc0":"","b1dc0867fe9b7ef9fd1e29d5c14fef6d":"","95bd5fbe4037dcee779149c90c32a01e":"","304d6f9788ae3c24be28126838e2a342":"","a5a96d82a42b0a4590544a9e4ba45645":"","ab7b3784f4e2ad806a7a2d8005cffbe7":"","e54344a4215ff4331fb0585d0b339afa":"","c31199466311992e0b64fb0edbf893c8":"","d5e1f38ab245aa1472ce4745b9c9e669":"","0208d15c957c4e847ede5c71dfde4acf":"","d5ed7b926933f2fc7906e7de47fa9ace":"","1722e22dcfc72fb0d4254ba10d2364c9":"","571ad37cf985601292dbd7ac11a8ca6f":"","a4c6e4b860fabb372e9324c26bc79678":"","72ada1387e757df8784075d1217c5a56":"","0eb99c2f6f43983f740493de690c6cc6":"","fa29acd6d335035c1210aefc18de4929":"","6d1189d37fa1520c965aea71138c73bd":"","6d3c93c6ee19f2e0030c6c38c1fa55d9":"","6d9691d508451efbdf77a482573d8638":"","1b7932d36154e555f81d4a504fe7ff66":""}},"user":{"id":760612,"username":"yamoo9","name":"yamoo9","description":"Web Design/Develop - Instructor","thumbnail_url":"https://www.gravatar.com/avatar/693056b361672b519b53f02db75ee1ce?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":611248,"present_controls":true,"present_upsizing":false,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
 </script>
 
 		<script>
